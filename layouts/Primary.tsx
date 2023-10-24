@@ -1,6 +1,5 @@
 "use client";
 
-import { Navigation } from "@/components/Navigation";
 import { DesignSystemContext, Layout } from "@honzachalupa/design-system";
 import { ReactNode, useContext, useEffect } from "react";
 
@@ -23,8 +22,6 @@ export const LayoutPrimary: React.FC<IProps> = ({ title, children }) => {
                     <h1 className="text-lg">{title}</h1>
                 </header>
             )}
-
-            <Navigation isTransparent />
 
             <div className="h-full pt-[70px] md:pt-[90px] md:mx-auto md:max-w-[800px]">
                 {children}
