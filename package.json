@@ -1,0 +1,42 @@
+{
+    "name": "timeline-app",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "PORT=4004 next dev",
+        "build": "next build --debug",
+        "start": "next start",
+        "lint": "tsc --noEmit && next lint",
+        "prepare": "husky install"
+    },
+    "dependencies": {
+        "@honzachalupa/admin": "^1.1.0",
+        "@honzachalupa/design-system": "^2.0.5",
+        "@vercel/analytics": "^1.0.1",
+        "classnames": "^2.3.2",
+        "framer-motion": "^10.12.10",
+        "husky": "^8.0.3",
+        "moment": "^2.29.4",
+        "next": "^13.4.2",
+        "next-pwa": "^5.6.0",
+        "openai": "^3.2.1",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "react-icons": "^4.8.0",
+        "react-modal-sheet": "^1.10.2",
+        "typescript": "4.9.5"
+    },
+    "devDependencies": {
+        "@types/node": "18.14.6",
+        "@types/react": "18.0.28",
+        "@types/react-dom": "18.0.11",
+        "@typescript-eslint/eslint-plugin": "^5.59.5",
+        "@typescript-eslint/parser": "^5.59.5",
+        "autoprefixer": "^10.4.14",
+        "encoding": "^0.1.13",
+        "eslint": "8.35.0",
+        "eslint-config-next": "13.2.3",
+        "eslint-config-prettier": "^8.8.0",
+        "tailwindcss": "^3.3.2"
+    }
+}
